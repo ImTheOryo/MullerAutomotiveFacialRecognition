@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.button {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #CD121D;
+    border: 1px solid #CD121D;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.button:hover {
+    color: #CD121D;
+    background-color: #ffffff;
+    border: 2px solid #CD121D;
+}

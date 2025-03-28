@@ -1,0 +1,62 @@
+.container-admin-panel {
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: underline #CD121D;
+    border-radius: 5px;
+    height: max-content;
+    font-family: Poppins, sans Serif, serif;
+    font-weight: bold;
+
+}
+
+.add-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #cd121d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-btn svg {
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    border: none;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    text-decoration: underline white;
+
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #cd121d;
+}
+
+.icon:hover {
+    color: #f44336;
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}

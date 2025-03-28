@@ -1,0 +1,53 @@
+.modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #cd121d;
+    pointer-events: auto;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+
+}
+
+.modal h2, .modal p {
+    text-align: center;
+}
+
+.blurred {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.btnConfirm {
+    background-color: #cd121d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border: 2px solid #cd121d;
+    text-transform: uppercase;
+
+}
+.btnCancel {
+    margin : 0 85px;
+    background-color: #ffffff;
+    color: #cd121d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border: 2px solid #cd121d;
+    text-transform: uppercase;
+
+}
+

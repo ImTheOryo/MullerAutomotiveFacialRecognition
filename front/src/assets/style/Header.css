@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 14px 30px 14px 30px;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.11)
+}
+
+.site-title {
+    height: 75px;
+}
+
+.contact-link, .logout-button {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #CD121D;
+    border: 1px solid #CD121D;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    font-family: Poppins, sans-serif;
+}
+
+.contact-link:hover {
+    color: #CD121D;
+    background-color: #ffffff;
+    border: 2px solid #CD121D;
+}
+
+.logout-button:hover {
+    color: #CD121D;
+    background-color: #ffffff;
+    border: 2px solid #CD121D;
+}
