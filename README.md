@@ -16,7 +16,7 @@ Voici un projet de Reconnaissance Facial en **React.js**, **Rust** avec FrameWor
         ```CREATE TABLE admin ( id SERIAL PRIMARY KEY, username VARCHAR NOT NULL, password VARCHAR NOT NULL);```
     
     - Pour la table user
-        ``` CREATE TABLE user ( id SERIAL PRIMARY KEY, first_name VARCHAR NOT NULL, last_name VARCHAR NOT NULL, facial_data TEXT NOT NULL);```
+        ``` CREATE TABLE users ( id SERIAL PRIMARY KEY, first_name VARCHAR NOT NULL, last_name VARCHAR NOT NULL, facial_data TEXT NOT NULL);```
 
 - Front-end
     - La commande ```npm install``` pour installer toutes les dépendances
